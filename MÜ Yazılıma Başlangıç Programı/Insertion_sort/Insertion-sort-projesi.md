@@ -1,4 +1,4 @@
-Patika.dev #https://app.patika.dev
+[Patika.dev](https://app.patika.dev)
 
 --Soru 1--
 [22,27,16,2,18,6] -> Insertion Sort
