@@ -3,11 +3,10 @@ Patika.dev #https://app.patika.dev
 --Soru 1--
 [22,27,16,2,18,6] -> Insertion Sort
 
-a-)Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
-b-)Big-O gösterimini yazınız.
-c-)Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.
-*Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
-
+a-)YukarÄ± verilen dizinin sort tÃ¼rÃ¼ne gÃ¶re aÅŸamalarÄ±nÄ± yazÄ±nÄ±z.
+b-)Big-O gÃ¶sterimini yazÄ±nÄ±z.
+c-)Time Complexity: Average case: AradÄ±ÄŸÄ±mÄ±z sayÄ±nÄ±n ortada olmasÄ±,Worst case: AradÄ±ÄŸÄ±mÄ±z sayÄ±nÄ±n sonda olmasÄ±, Best case: AradÄ±ÄŸÄ±mÄ±z sayÄ±nÄ±n dizinin en baÅŸÄ±nda olmasÄ±.
+*Dizi sÄ±ralandÄ±ktan sonra 18 sayÄ±sÄ± hangi case kapsamÄ±na girer? YazÄ±nÄ±z.
 
 a-)
 
@@ -24,32 +23,31 @@ a-)
 11-) 2,16,18,22,6,27|
 12-) 2,16,18,6,22,27|
 13-) 2,16,6,18,22,27|
-14-) 2,6,16,18,22,27| ->Dizi küçükten büyüğe başarıyla sıralandı.
-
+14-) 2,6,16,18,22,27| ->Dizi kÃ¼Ã§Ã¼kten bÃ¼yÃ¼ÄŸe baÅŸarÄ±yla sÄ±ralandÄ±.
 
 b-)
-O(N²)
+O(NÂ²)
 
 c-)
 Worst Case:
-Küçükten büyüğe sıralanmak istenen bir dizinin tüm elemanlarının büyükten küçüğe sıralanmasıdır (reversed order).
-O(N x (N+1)) / 2 => O((N²+N)/2) => O(N²/2) => O(N²)
+KÃ¼Ã§Ã¼kten bÃ¼yÃ¼ÄŸe sÄ±ralanmak istenen bir dizinin tÃ¼m elemanlarÄ±nÄ±n bÃ¼yÃ¼kten kÃ¼Ã§Ã¼ÄŸe sÄ±ralanmasÄ±dÄ±r (reversed order).
+O(N x (N+1)) / 2 => O((NÂ²+N)/2) => O(NÂ²/2) => O(NÂ²)
 
 Best Case:
-Küçükten büyüğe sıralamak istediğimiz bir dizinin elemanlarının zaten küçükten büyüğe sıralandığı durumdur.
-Dolayısıyla O(N)' dir.
+KÃ¼Ã§Ã¼kten bÃ¼yÃ¼ÄŸe sÄ±ralamak istediÄŸimiz bir dizinin elemanlarÄ±nÄ±n zaten kÃ¼Ã§Ã¼kten bÃ¼yÃ¼ÄŸe sÄ±ralandÄ±ÄŸÄ± durumdur.
+DolayÄ±sÄ±yla O(N)' dir.
 
 Average Case:
-O(N²) + O(N) in ortalaması olacağı için yine N² cinsinden bir sonuç olur. Average case = O(N²)
+O(NÂ²) + O(N) in ortalamasÄ± olacaÄŸÄ± iÃ§in yine NÂ² cinsinden bir sonuÃ§ olur. Average case = O(NÂ²)
 
-[2,6,16,18,22,27]=> Sıralanmış dizi
-*Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
-Cevap : Aradığımız sayı başta(Best Case) ve sonda(Worse Case) olmadığından beklenilen durum olarak Average Case'dir.
+[2,6,16,18,22,27]=> SÄ±ralanmÄ±ÅŸ dizi
+*Dizi sÄ±ralandÄ±ktan sonra 18 sayÄ±sÄ± hangi case kapsamÄ±na girer? YazÄ±nÄ±z.
+Cevap : AradÄ±ÄŸÄ±mÄ±z sayÄ± baÅŸta(Best Case) ve sonda(Worse Case) olmadÄ±ÄŸÄ±ndan beklenilen durum olarak Average Case'dir.
 
 --Soru2--
-[7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
+[7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a gÃ¶re ilk 4 adÄ±mÄ±nÄ± yazÄ±nÄ±z.
 
 7|,3,5,8,2,9,4,15,6
 3,7|,5,8,2,9,4,14,6
 3,5,7|,8,2,9,4,14,6
-3,5,7,8|,2,9,4,14,6 ->4.adımımız bu şekilde olur
+3,5,7,8|,2,9,4,14,6 ->4.adÄ±mÄ±mÄ±z bu ÅŸekilde olur
