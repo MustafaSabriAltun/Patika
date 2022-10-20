@@ -1,12 +1,12 @@
 [Patika.dev](https://www.patika.dev/tr)
 
---Soru1---
+#Soru1
 [16,21,11,8,12,22] -> Merge Sort
 
-a-)Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
-b-)Big-O gösterimini yazınız.
+- a-)YukarÄ±daki dizinin sort tÃ¼rÃ¼ne gÃ¶re aÅŸamalarÄ±nÄ± yazÄ±nÄ±z.
+- b-)Big-O gÃ¶sterimini yazÄ±nÄ±z.
 
-a-)
+##A-)
 
                          16 21 11 | 8 12 22
 
@@ -21,7 +21,8 @@ a-)
                            8 11 12 16 21 22
 
 
-b-)
+##B-)
 
-Big-O gösterimini yazınız.
+**Big-O gÃ¶sterimini yazÄ±nÄ±z.**
+
 O(n.logn)
