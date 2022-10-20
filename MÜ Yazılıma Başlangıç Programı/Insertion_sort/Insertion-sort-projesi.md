@@ -1,14 +1,14 @@
 [Patika.dev](https://app.patika.dev)
 
---Soru 1--
+# Soru 1
 [22,27,16,2,18,6] -> Insertion Sort
 
-a-)Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
-b-)Big-O gösterimini yazınız.
-c-)Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.
+*a-)Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+*b-)Big-O gösterimini yazınız.
+*c-)Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.
 *Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
 
-a-)
+## A-)
 
 1-) [22,27,16,2,18,6]
 2-) 22|,27,16,2,18,6
@@ -25,10 +25,10 @@ a-)
 13-) 2,16,6,18,22,27|
 14-) 2,6,16,18,22,27| ->Dizi küçükten büyüğe başarıyla sıralandı.
 
-b-)
+## B-)
 O(N²)
 
-c-)
+## C-)
 Worst Case:
 Küçükten büyüğe sıralanmak istenen bir dizinin tüm elemanlarının büyükten küçüğe sıralanmasıdır (reversed order).
 O(N x (N+1)) / 2 => O((N²+N)/2) => O(N²/2) => O(N²)
@@ -44,7 +44,7 @@ O(N²) + O(N) in ortalaması olacağı için yine N² cinsinden bir sonuç olur.
 *Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
 Cevap : Aradığımız sayı başta(Best Case) ve sonda(Worse Case) olmadığından beklenilen durum olarak Average Case'dir.
 
---Soru2--
+# Soru2
 [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
 
 7|,3,5,8,2,9,4,15,6
