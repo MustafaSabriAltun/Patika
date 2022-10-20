@@ -1,1 +1,1 @@
-# [Patika] (https://app.patika.dev)
+# [Patika](https://app.patika.dev)
