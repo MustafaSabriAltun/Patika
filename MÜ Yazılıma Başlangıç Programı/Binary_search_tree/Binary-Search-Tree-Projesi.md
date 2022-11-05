@@ -1,6 +1,6 @@
 [Patika.dev](https://www.patika.dev/tr)
 
-#SORU1
+# SORU1
 
 [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
 
